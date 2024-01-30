@@ -29,7 +29,7 @@ public class GamblingSimulationGame {
                     }
 
                 }
-                if(luckiesthour>unluckiesthour){
+                if(luckiesthour>unluckiesthour){         //to calculate luckiest and unluckiest days ,if wins>losses it is a lucky day and vice versa
                     luckiestday=luckiestday+1;
                 }
                 else{
